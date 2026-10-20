@@ -1,0 +1,5 @@
+APK Structure Analysis Notes:
+1. AndroidManifest.xml: Checked permissions to see what the game accesses.
+2. classes.dex: The compiled game logic. (Analyzed, did not decompile fully).
+3. resources.arsc: Where the game data (like weapon stats) is stored.
+4. Integrity Checks: Noticed the game uses file hashing to detect tampering.
